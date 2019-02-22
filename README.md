@@ -76,6 +76,9 @@ class Example extends Component {
 | [`onKeyDown`](#onKeyUpProps) | Function | ()=>{} | Callback for key down event. |
 | [`onFocus`](#onFocusProps) | Function | ()=>{} | Callback for focus event. |
 | [`onChange`](#onChangeProps) | Function | ()=>{} | Callback for changes in input. |
+| [`onAdd`](#onAdd) | Function | ()=>{} | Callback after making an input. Retrieves tag value & label |
+| [`onDelete`](#onDelete) | Function | ()=>{} | Callback after deleting tags |
+| [`onBlur`](#onBlur) | Function | ()=>{} | Callback after removing focus from input |
 
 
 <a name="classNameProp"></a>
